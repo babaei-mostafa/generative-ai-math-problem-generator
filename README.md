@@ -26,8 +26,8 @@ cd math-problem-generator
 1. Go to [https://supabase.com](https://supabase.com) and create a free account
 2. Create a new project
 3. Go to Settings → API to find your:
-   - Project URL (starts with `https://`)
-   - Anon/Public Key
+   - Project URL: https://qyavorsbjdyycwtbnzgb.supabase.co
+   - Anon/Public Key: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InF5YXZvcnNiamR5eWN3dGJuemdiIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTk1NDExMjcsImV4cCI6MjA3NTExNzEyN30.L1tVuwEjdVH7q428AMhfhZ5598MSc2lVwM1bv2m1qXI
 
 ### 3. Set Up Database Tables
 
@@ -81,6 +81,7 @@ Complete the TODO sections in the main page component:
 Create a new API route that handles:
 
 #### POST /api/math-problem (Generate Problem)
+
 - Use Google's Gemini AI to generate a math word problem
 - The AI should return JSON with:
   ```json
@@ -93,6 +94,7 @@ Create a new API route that handles:
 - Return the problem and session ID to the frontend
 
 #### POST /api/math-problem/submit (Submit Answer)
+
 - Receive the session ID and user's answer
 - Check if the answer is correct
 - Use AI to generate personalized feedback based on:
@@ -136,13 +138,13 @@ When submitting your assessment, provide:
 
 ## Implementation Notes
 
-*Please fill in this section with any important notes about your implementation, design decisions, challenges faced, or features you're particularly proud of.*
+_Please fill in this section with any important notes about your implementation, design decisions, challenges faced, or features you're particularly proud of._
 
 ### My Implementation:
 
-- 
-- 
-- 
+-
+-
+-
 
 ## Additional Features (Optional)
 
