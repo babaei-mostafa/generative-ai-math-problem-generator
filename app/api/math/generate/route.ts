@@ -6,8 +6,6 @@ export async function POST() {
   try {
     const problem = await generateMathProblem()
 
-    console.log(problem)
-
     const { data, error } = await supabase
       .from('math_problem_sessions')
       .insert({
