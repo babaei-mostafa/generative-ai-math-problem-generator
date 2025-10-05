@@ -1,0 +1,12 @@
+# Tell GitHub Linguist to ignore build and dependency folders
+node_modules/* linguist-vendored
+.next/* linguist-vendored
+dist/* linguist-vendored
+out/* linguist-vendored
+
+# Treat all .ts and .tsx files as TypeScript
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+
+# Optional: Ignore CSS frameworks or generated styles
+*.css linguist-vendored
